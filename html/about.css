@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/concrete_seamless.png);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+nav{
+    height: 90px;
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    /* margin-left: 300px; */
+    margin-left: 262px;
+}
+ul li {
+    float: left;
+    margin-right: 20px;
+    line-height: 100px;
+}
+ul li a{
+    display: inline-block;
+    color: #999999;
+    text-decoration: none;
+}
+#logo{
+    margin-right: 500px;
+    background-color: #49AAA4;
+    width: 250px;
+    height: 90px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.link:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color:#ff1a1a;
+    font-size: 1.5em;
+    transition: 0.7s;
+}
+#logo:hover{
+    background-color: rgb(228, 228, 22);
+    transition: 2s;
+}
+#container{
+    width: 914px;
+    margin: auto;
+}
+section{
+    margin-top: 20px;
+    width: 610px;
+    height: 400px;
+    border:1px solid #cac8c8;
+    float: left;
+    background-color: white;
+}
+article header p{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #49AAA4;
+    margin: 30px 0px 20px 30px;
+    font-size: 2rem;
+
+}
+aside{
+    float: right;
+    margin-top: 20px;
+    width: 280px;
+    height: 200px;
+    border:1px solid #cac8c8;
+    background-color: white;
+}
+footer{
+    clear: both;
+}
+#cat-photo{
+    margin: 30px 10px 20px 20px;
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+article p{
+    margin: 20px 0px 20px 20px;
+    line-height: 36px;
+    color: #999999;
+}
+article p::selection{
+    background: yellow;
+}
+aside p{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #49AAA4;
+    margin: 30px 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+aside a{
+    text-decoration: none;
+}
+aside img{
+    width: 62px;
+    height: 62px;
+}
+#images{
+    margin: 30px 38px;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    line-height: 100px;
+    height: 90px;
+    background-color: #999999;
+    color: #cac8c8;
+    border-top: 8px solid #49aaa4;
+    position: relative;
+    font-size: 12px;
+    top: 300px;
+
+}
