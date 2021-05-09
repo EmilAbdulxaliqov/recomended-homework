@@ -26,6 +26,11 @@ ul li a{
     color: #999999;
     text-decoration: none;
 }
+ul .some +.some::before{
+    content: "|";
+    color: gray;
+    margin-right:10px ;
+}
 #logo{
     margin-right: 500px;
     background-color: #49AAA4;
@@ -55,7 +60,7 @@ ul li a{
 section{
     margin-top: 20px;
     width: 610px;
-    height: 400px;
+    height: 520px;
     border:1px solid #cac8c8;
     float: left;
     background-color: white;
@@ -79,20 +84,6 @@ aside{
 footer{
     clear: both;
 }
-#cat-photo{
-    margin: 30px 10px 20px 20px;
-    width: 200px;
-    height: 150px;
-    float: left;
-}
-article p{
-    margin: 20px 0px 20px 20px;
-    line-height: 36px;
-    color: #999999;
-}
-article p::selection{
-    background: yellow;
-}
 aside p{
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -111,7 +102,6 @@ aside img{
 #images{
     margin: 30px 38px;
 }
-
 footer{
     clear: both;
     text-align: center;
@@ -122,6 +112,29 @@ footer{
     border-top: 8px solid #49aaa4;
     position: relative;
     font-size: 12px;
-    top: 300px;
-
+    top: 20px;
+    bottom: 0px;
+}
+#form{
+    margin: 20px 20px 30px 50px;
+}
+input{
+    margin: 10px 0px;
+    padding: 10px;
+}
+label{
+    color: #777777;
+}
+textarea{
+    margin: 10px 0px;
+}
+button{
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    background-color: #49AAA4;
+    width: 120px;
+    height: 50px;
+    padding: 3px;
+    border: 1px solid #49AAA4;
 }
